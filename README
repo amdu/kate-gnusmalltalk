@@ -1,0 +1,4 @@
+Copy the kate syntax highlighting file "gnusmalltalk.xml" to the kate syntax directory.
+
+Example for Linux Mint:
+Copy the file "gnusmalltalk.xml" to /usr/share/kde4/apps/katepart/syntax.

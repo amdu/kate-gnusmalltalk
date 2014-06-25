@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE language SYSTEM "language.dtd">
+<language name="GNU Smalltalk" version="3.2.4" kateversion="3.11" section="Sources" extensions="*.st" mimetype="" license="LGPL" author="Sascha Roitz roitz@web.de">
+  <highlighting>
+    <list name="gnusmalltalk">
+      <item>	AbstractNamespace </item> 
+      <item> 	AlternativeObjectProxy	</item> 
+      <item> 	ArithmeticError	</item> 
+      <item> 	Array	</item> 
+      <item> 	ArrayedCollection	</item> 
+      <item> 	Association	</item> 
+      <item> 	Autoload	</item> 
+      <item> 	Bag	</item> 
+      <item> 	Behavior	</item> 
+      <item> 	BindingDictionary	</item> 
+      <item> 	BlockClosure	</item> 
+      <item> 	BlockContext	</item> 
+      <item> 	Boolean	</item> 
+      <item> 	ByteArray	</item> 
+      <item> 	CAggregate	</item> 
+      <item> 	CallinProcess	</item> 
+      <item> 	CArray	</item> 
+      <item> 	CArrayCType	</item> 
+      <item> 	CBoolean	</item> 
+      <item> 	CByte	</item> 
+      <item> 	CCallable	</item> 
+      <item> 	CCallbackDescriptor	</item> 
+      <item> 	CChar	</item> 
+      <item> 	CCompound	</item> 
+      <item> 	CDouble	</item> 
+      <item> 	CFloat	</item> 
+      <item> 	CFunctionDescriptor	</item> 
+      <item> 	Character	</item> 
+      <item> 	CharacterArray	</item> 
+      <item> 	CInt	</item> 
+      <item> 	Class	</item> 
+      <item> 	ClassDescription	</item> 
+      <item> 	CLong	</item> 
+      <item> 	CLongDouble	</item> 
+      <item> 	CObject	</item> 
+      <item> 	Collection	</item> 
+      <item> 	CompiledBlock	</item> 
+      <item> 	CompiledCode	</item> 
+      <item> 	CompiledMethod	</item> 
+      <item> 	ContextPart	</item> 
+      <item> 	Continuation	</item> 
+      <item> 	CPtr	</item> 
+      <item> 	CPtrCType	</item> 
+      <item> 	CScalar	</item> 
+      <item> 	CScalarCType	</item> 
+      <item> 	CShort	</item> 
+      <item> 	CSmalltalk	</item> 
+      <item> 	CString	</item> 
+      <item> 	CStringCType	</item> 
+      <item> 	CStruct	</item> 
+      <item> 	CType	</item> 
+      <item> 	CUChar	</item> 
+      <item> 	CUInt	</item> 
+      <item> 	CULong	</item> 
+      <item> 	CUnion	</item> 
+      <item> 	CUShort	</item> 
+      <item> 	Date	</item> 
+      <item> 	DateTime	</item> 
+      <item> 	DeferredVariableBinding	</item> 
+      <item> 	Delay	</item> 
+      <item> 	DelayedAdaptor	</item> 
+      <item> 	Dictionary	</item> 
+      <item> 	DirectedMessage	</item> 
+      <item> 	Directory	</item> 
+      <item> 	DLD	</item> 
+      <item> 	DumperProxy	</item> 
+      <item> 	Duration	</item> 
+      <item> 	Error	</item> 
+      <item> 	Exception	</item> 
+      <item> 	ExceptionSet	</item> 
+      <item> 	False	</item> 
+      <item> 	File	</item> 
+      <item> 	FileDescriptor	</item> 
+      <item> 	FilePath	</item> 
+      <item> 	FileSegment	</item> 
+      <item> 	FileStream	</item> 
+      <item> 	Float	</item> 
+      <item> 	FloatD	</item> 
+      <item> 	FloatE	</item> 
+      <item> 	FloatQ	</item> 
+      <item> 	Fraction	</item> 
+      <item> 	Generator	</item> 
+      <item> 	Getopt	</item> 
+      <item> 	Halt	</item> 
+      <item> 	HashedCollection	</item> 
+      <item> 	HomedAssociation	</item> 
+      <item> 	IdentityDictionary	</item> 
+      <item> 	IdentitySet	</item> 
+      <item> 	Integer	</item> 
+      <item> 	Interval	</item> 
+      <item> 	Iterable	</item> 
+      <item> 	LargeArray	</item> 
+      <item> 	LargeArrayedCollection	</item> 
+      <item> 	LargeByteArray	</item> 
+      <item> 	LargeInteger	</item> 
+      <item> 	LargeNegativeInteger	</item> 
+      <item> 	LargePositiveInteger	</item> 
+      <item> 	LargeWordArray	</item> 
+      <item> 	LargeZeroInteger	</item> 
+      <item> 	Link	</item> 
+      <item> 	LinkedList	</item> 
+      <item> 	LookupKey	</item> 
+      <item> 	LookupTable	</item> 
+      <item> 	Magnitude	</item> 
+      <item> 	MappedCollection	</item> 
+      <item> 	Memory	</item> 
+      <item> 	Message	</item> 
+      <item> 	MessageNotUnderstood	</item> 
+      <item> 	Metaclass	</item> 
+      <item> 	MethodContext	</item> 
+      <item> 	MethodDictionary	</item> 
+      <item> 	MethodInfo	</item> 
+      <item> 	Namespace	</item> 
+      <item> 	NetClients.URIResolver	</item> 
+      <item> 	NetClients.URL	</item> 
+      <item> 	Notification	</item> 
+      <item> 	NullProxy	</item> 
+      <item> 	NullValueHolder	</item> 
+      <item> 	Number	</item> 
+      <item> 	Object	</item> 
+      <item> 	ObjectDumper	</item> 
+      <item> 	ObjectMemory	</item> 
+      <item> 	OrderedCollection	</item> 
+      <item> 	Package	</item> 
+      <item> 	PackageLoader	</item> 
+      <item> 	Permission	</item> 
+      <item> 	PluggableAdaptor	</item> 
+      <item> 	PluggableProxy	</item> 
+      <item> 	Point	</item> 
+      <item> 	PositionableStream	</item> 
+      <item> 	Process	</item> 
+      <item> 	ProcessEnvironment	</item> 
+      <item> 	ProcessorScheduler	</item> 
+      <item> 	Promise	</item> 
+      <item> 	Random	</item> 
+      <item> 	ReadStream	</item> 
+      <item> 	ReadWriteStream	</item> 
+      <item> 	Rectangle	</item> 
+      <item> 	RecursionLock	</item> 
+      <item> 	Regex	</item> 
+      <item> 	RegexResults	</item> 
+      <item> 	RootNamespace	</item> 
+      <item> 	RunArray	</item> 
+      <item> 	ScaledDecimal	</item> 
+      <item> 	SecurityPolicy	</item> 
+      <item> 	Semaphore	</item> 
+      <item> 	SequenceableCollection	</item> 
+      <item> 	Set	</item> 
+      <item> 	SharedQueue	</item> 
+      <item> 	Signal	</item> 
+      <item> 	SingletonProxy	</item> 
+      <item> 	SmallInteger	</item> 
+      <item> 	SortedCollection	</item> 
+      <item> 	Stream	</item> 
+      <item> 	String	</item> 
+      <item> 	Symbol	</item> 
+      <item> 	SymLink	</item> 
+      <item> 	SystemDictionary	</item> 
+      <item> 	SystemExceptions.AlreadyDefined	</item> 
+      <item> 	SystemExceptions.ArgumentOutOfRange	</item> 
+      <item> 	SystemExceptions.BadReturn	</item> 
+      <item> 	SystemExceptions.CInterfaceError	</item> 
+      <item> 	SystemExceptions.EmptyCollection	</item> 
+      <item> 	SystemExceptions.EndOfStream	</item> 
+      <item> 	SystemExceptions.FileError	</item> 
+      <item> 	SystemExceptions.IndexOutOfRange	</item> 
+      <item> 	SystemExceptions.InvalidArgument	</item> 
+      <item> 	SystemExceptions.InvalidProcessState	</item> 
+      <item> 	SystemExceptions.InvalidSize	</item> 
+      <item> 	SystemExceptions.InvalidValue	</item> 
+      <item> 	SystemExceptions.MustBeBoolean	</item> 
+      <item> 	SystemExceptions.MutationError	</item> 
+      <item> 	SystemExceptions.NoRunnableProcess	</item> 
+      <item> 	SystemExceptions.NotEnoughElements	</item> 
+      <item> 	SystemExceptions.NotFound	</item> 
+      <item> 	SystemExceptions.NotImplemented	</item> 
+      <item> 	SystemExceptions.NotIndexable	</item> 
+      <item> 	SystemExceptions.NotYetImplemented	</item> 
+      <item> 	SystemExceptions.PackageNotAvailable	</item> 
+      <item> 	SystemExceptions.PrimitiveFailed	</item> 
+      <item> 	SystemExceptions.ProcessBeingTerminated	</item> 
+      <item> 	SystemExceptions.ProcessTerminated	</item> 
+      <item> 	SystemExceptions.ReadOnlyObject	</item> 
+      <item> 	SystemExceptions.SecurityError	</item> 
+      <item> 	SystemExceptions.ShouldNotImplement	</item> 
+      <item> 	SystemExceptions.SubclassResponsibility	</item> 
+      <item> 	SystemExceptions.UnhandledException	</item> 
+      <item> 	SystemExceptions.UserInterrupt	</item> 
+      <item> 	SystemExceptions.VerificationError	</item> 
+      <item> 	SystemExceptions.VMError	</item> 
+      <item> 	SystemExceptions.WrongArgumentCount	</item> 
+      <item> 	SystemExceptions.WrongClass	</item> 
+      <item> 	SystemExceptions.WrongMessageSent	</item> 
+      <item> 	TextCollector	</item> 
+      <item> 	Time	</item> 
+      <item> 	True	</item> 
+      <item> 	UndefinedObject	</item> 
+      <item> 	UnicodeCharacter	</item> 
+      <item> 	UnicodeString	</item> 
+      <item> 	ValueAdaptor	</item> 
+      <item> 	ValueHolder	</item> 
+      <item> 	VariableBinding	</item> 
+      <item> 	VersionableObjectProxy	</item> 
+      <item> 	VFS.ArchiveFile	</item> 
+      <item> 	VFS.ArchiveMember	</item> 
+      <item> 	VFS.FileWrapper	</item> 
+      <item> 	VFS.StoredZipMember	</item> 
+      <item> 	VFS.TmpFileArchiveMember	</item> 
+      <item> 	VFS.ZipFile	</item> 
+      <item> 	Warning	</item> 
+      <item> 	WeakArray	</item> 
+      <item> 	WeakIdentitySet	</item> 
+      <item> 	WeakKeyDictionary	</item> 
+      <item> 	WeakKeyIdentityDictionary	</item> 
+      <item> 	WeakSet	</item> 
+      <item> 	WeakValueIdentityDictionary	</item> 
+      <item> 	WeakValueLookupTable	</item> 
+      <item> 	WordArray	</item> 
+      <item> 	WriteStream	</item> 
+      <item> 	ZeroDivide	</item> 
+    </list>
+    
+   <list name="keywords">
+      <item> self </item>
+      <item> super </item>
+      <item> thisContext </item>
+      <item> nil </item>
+      <item> true </item>
+      <item> false </item>
+    </list>
+    
+    <list name="commentary">
+      <item>category</item>
+      <item>comment</item>
+    </list>
+    
+    <list name="methods">
+      <item>class</item>
+      <item>copy</item>
+      <item>deepCopy</item>
+      <item>halt</item>
+      <item>ifCurtailed</item>
+      <item>ifError</item>
+      <item>ifFalse</item>
+      <item>ifMatched</item>
+      <item>ifNil</item>
+      <item>ifNotMatched</item>
+      <item>ifNotNil</item>
+      <item>ifTrue</item>
+      <item>method</item>
+      <item>new</item>
+      <item>shallowCopy</item>
+      <item>subclassResponsibility</item>
+      <item>value</item>
+      <item>yourself</item>
+    </list>
+  
+     <contexts>
+ 
+     <context attribute="Normal Text" lineEndContext="#pop" name="Normal Text">
+	<keyword attribute="Method" context="#stay" String="methods"/>
+	<keyword attribute="Commentary" context="#stay" String="commentary"/>
+	<keyword attribute="GNUSmalltalk" context="#stay" String="gnusmalltalk"/>
+ 	<keyword attribute="Keyword" context="#stay" String="keywords" />
+	<RegExpr attribute="Operator" context="#stay" String="[,]{1}"  /> 
+	<RegExpr attribute="Comment2" context="Comment2" String="[&quot;][_]" beginRegion="Comment2"/>
+	<RegExpr attribute="Comment" context="Comment" String="[&quot;]" beginRegion="Comment"/>
+	<RegExpr attribute="Symbol" context="#stay" String="\#[a-zA-Z][\w]*"/>
+	<RegExpr attribute="Char" context="#stay" String="\$."/>
+	<DetectChar attribute="String" context="String" char="'" beginRegion="String"/>
+	<DetectChar attribute="Brackets1" context="Level1" char="[" beginRegion="Brackets1"/>
+	<DetectChar attribute="BracketsA" context="LevelA" char="(" beginRegion="BracketsA"/>
+	<RegExpr attribute="Allocation" context="#stay" String="\w+[\s|\t]*:=" />
+        <RegExpr attribute="Integer" context="#stay" String="[0-9]+" />
+	<RegExpr attribute="Class" context="#stay" String="\b([A-Z]+\w+)"/>
+	<RegExpr attribute="Variable" context="Variable" String="[\|]" beginRegion="Variable"/> 
+	<RegExpr attribute="Variable2" context="#stay"  String="(([\:][\s|\t]*[a-zA-Z]+[\s|\t]*)+[\s|\t]*)+[\|]{1}"/>  
+	<AnyChar attribute="Operator" context="#stay" String="+-;=*~&lt;&gt;^.@|&amp;"/>  
+	<keyword attribute="Keyword" context="#stay" String="keywords" />
+	<!-- "no lookbehind-rule" 
+	  <RegExpr attribute="VariableOrObject" context="#stay" String="(?:[^a-zA-Z0-9_\s\t])[\s|\t]*[a-z][\w]*"  /> 
+	  <RegExpr attribute="VariableOrObject" context="#stay" fallthrough="true" String="([\:][\s|\t]*[a-zA-Z0-9_]+)+[\s|\t]*"/>  
+	-->
+	<keyword attribute="Keyword" context="#stay" String="keywords" />
+    </context>
+
+      <context name="Brackets" attribute="Brackets">
+      </context> 
+      
+      <context name="Level1" attribute="Normal" lineEndContext="#stay">
+	<DetectChar attribute="Brackets2" context="Level2" char="[" beginRegion="Brackets2" />
+	<DetectChar attribute="Brackets1" context="#pop" char="]" endRegion="Brackets1" />
+	<IncludeRules context="Brackets" />
+	<IncludeRules context="Normal Text" />
+      </context>
+
+      <context name="LevelA" attribute="Normal" lineEndContext="#stay">
+	<DetectChar attribute="BracketsB" context="LevelB" char="(" beginRegion="BracketsB" />
+	<DetectChar attribute="BracketsA" context="#pop" char=")" endRegion="BracketsA" />
+	<IncludeRules context="Brackets" />
+	<IncludeRules context="Normal Text" />
+      </context>
+
+      <context name="Level2" attribute="Normal" lineEndContext="#stay">
+	<DetectChar attribute="Brackets3" context="Level3" char="[" beginRegion="Brackets3" />
+	<DetectChar attribute="Brackets2" context="#pop" char="]" endRegion="Brackets2" />
+	<IncludeRules context="Brackets" />
+	<IncludeRules context="Normal Text" />
+      </context>
+
+      <context name="LevelB" attribute="Normal" lineEndContext="#stay">
+	<DetectChar attribute="BracketsC" context="LevelC" char="(" beginRegion="BracketsC" />
+	<DetectChar attribute="BracketsB" context="#pop" char=")" endRegion="BracketsB" />
+	<IncludeRules context="Brackets" />
+	<IncludeRules context="Normal Text" />
+      </context>
+      
+      <context name="Level3" attribute="Normal" lineEndContext="#stay">
+	<DetectChar attribute="Brackets4" context="Level4" char="[" beginRegion="Brackets4" />
+	<DetectChar attribute="Brackets3" context="#pop" char="]" endRegion="Brackets3" />
+	<IncludeRules context="Brackets" />
+	<IncludeRules context="Normal Text" />
+      </context>
+
+      <context name="LevelC" attribute="Normal" lineEndContext="#stay">
+	<DetectChar attribute="BracketsD" context="LevelD" char="(" beginRegion="BracketsD" />
+	<DetectChar attribute="BracketsC" context="#pop" char=")" endRegion="BracketsC" />
+	<IncludeRules context="Brackets" />
+	<IncludeRules context="Normal Text" />
+      </context>
+      
+      <context name="Level4" attribute="Normal" lineEndContext="#stay">
+	<DetectChar attribute="Brackets5" context="Level5" char="[" beginRegion="Brackets5" />
+	<DetectChar attribute="Brackets4" context="#pop" char="]" endRegion="Brackets4" />
+	<IncludeRules context="Brackets" />
+	<IncludeRules context="Normal Text" />
+      </context>
+ 
+      <context name="LevelD" attribute="Normal" lineEndContext="#stay">
+	<DetectChar attribute="BracketsE" context="LevelE" char="(" beginRegion="BracketsE" />
+	<DetectChar attribute="BracketsD" context="#pop" char=")" endRegion="BracketsD" />
+	<IncludeRules context="Brackets" />
+	<IncludeRules context="Normal Text" />
+      </context>
+ 
+      <context name="Level5" attribute="Normal" lineEndContext="#stay">
+	<DetectChar attribute="Brackets6" context="Level6" char="[" beginRegion="Brackets6" />
+	<DetectChar attribute="Brackets5" context="#pop" char="]" endRegion="Brackets5" />
+	<IncludeRules context="Brackets" />
+	<IncludeRules context="Normal Text" />
+      </context>
+      
+     <context name="LevelE" attribute="Normal" lineEndContext="#stay">
+	<DetectChar attribute="BracketsF" context="LevelF" char="(" beginRegion="BracketsF" />
+	<DetectChar attribute="BracketsE" context="#pop" char=")" endRegion="BracketsE" />
+	<IncludeRules context="Brackets" />
+	<IncludeRules context="Normal Text" />
+      </context>
+ 
+      <context name="Level6" attribute="Normal" lineEndContext="#stay">
+	<DetectChar attribute="Brackets1" context="Level1" char="[" beginRegion="Brackets1" />
+	<DetectChar attribute="Brackets6" context="#pop" char="]" endRegion="Brackets6" />
+	<IncludeRules context="Brackets" />
+	<IncludeRules context="Normal Text" />
+      </context>
+ 
+      <context name="LevelF" attribute="Normal" lineEndContext="#stay">
+	<DetectChar attribute="BracketsA" context="LevelA" char="(" beginRegion="BracketsA" />
+	<DetectChar attribute="BracketsF" context="#pop" char=")" endRegion="BracketsF" />
+	<IncludeRules context="Brackets" />
+	<IncludeRules context="Normal Text" />
+      </context>
+ 
+      <context attribute="String" lineEndContext="#stay" name="String" >
+	<DetectChar attribute="String" context="#pop" char="'" />
+      </context>
+
+    <context attribute="Comment2" lineEndContext="#stay" name="Comment2">
+      <RegExpr attribute="Comment2" context="#pop" String="[&quot;]" endRegion="Comment2"/>
+    </context> 
+
+    <context attribute="Comment" lineEndContext="#stay" name="Comment">
+	<RegExpr attribute="Comment" context="#pop" String="[&quot;]" endRegion="Comment"/>
+    </context>
+
+    <context attribute="Variable" lineEndContext="#stay" name="Variable">
+	<RegExpr attribute="Variable" context="#pop" String="\|" endRegion="Variable"/>
+    </context>
+    </contexts>
+      
+    <itemDatas>
+      <itemData name="Normal Text" defStyleNum="dsNormal" />
+      <itemData name="Keyword" defStyleNum="dsKeyword" color= "#990099"  />
+      <itemData name="Allocation" defStyleNum="dsKeyword" color="#003399" bold="0"/>
+      <itemData name="Operator" defStyleNum="dsKeyword" color="#d92550"/> 
+      <itemData name="Method" defStyleNum="dsNormal" italic="1" />
+      <itemData name="Commentary" defStyleNum="dsFunction" color="#6e7f80" />
+      <itemData name="Class" defStyleNum="dsKeyword" color="#0000ff" bold="1" italic="0"/>
+      <itemData name="Control" defStyleNum="dsKeyword" />
+      <itemData name="Variable" defStyleNum="dsNormal" color= "#0000ff" /> 
+      <itemData name="Variable2" defStyleNum="dsNormal" color= "#3366ff" />
+      <itemData name="String" defStyleNum="dsString"/>
+      <itemData name="Char" defStyleNum="dsChar" color= "#873260" />
+      <itemData name="Symbol" defStyleNum="dsString" color="#660000" />
+      <itemData name="Integer" defStyleNum="dsDecVal" />
+      <itemData name="Comment" defStyleNum="dsComment" italic="1"/>
+      <itemData name="Comment2" defStyleNum="dsComment" color= "#228b22" italic="1"/>
+      <itemData name="Brackets1" defStyleNum="dsNormal" color="#8f8f8f" selColor="#000000" bold="1" italic="0" />
+      <itemData name="Brackets2" defStyleNum="dsNormal" color="#000033" selColor="#000000" bold="1" italic="0" />
+      <itemData name="Brackets3" defStyleNum="dsNormal" color="#5f9ea0" selColor="#000000" bold="1" italic="0" />
+      <itemData name="Brackets4" defStyleNum="dsNormal" color="#38c3c7" selColor="#000000" bold="1" italic="0" />
+      <itemData name="Brackets5" defStyleNum="dsNormal" color="#0000ff" selColor="#000000" bold="1" italic="0" />
+      <itemData name="Brackets6" defStyleNum="dsNormal" color="#d874bc" selColor="#000000" bold="1" italic="0" />
+        
+      <itemData name="BracketsA" defStyleNum="dsNormal" color="#006600" selColor="#000000" bold="1" italic="0" />
+      <itemData name="BracketsB" defStyleNum="dsNormal" color="#00b300" selColor="#000000" bold="1" italic="0" />
+      <itemData name="BracketsC" defStyleNum="dsNormal" color="#af6eeb" selColor="#000000" bold="1" italic="0" />
+      <itemData name="BracketsD" defStyleNum="dsNormal" color="#6317a9" selColor="#000000" bold="1" italic="0" />
+      <itemData name="BracketsE" defStyleNum="dsNormal" color="#bfb151" selColor="#000000" bold="1" italic="0" />
+      <itemData name="BracketsF" defStyleNum="dsNormal" color="#7d732e" selColor="#000000" bold="1" italic="0" />
+      <itemData name="GNUSmalltalk" defStyleNum="dsNormal" color="#003399" selColor="#FFFFFF" bold="1" italic="0"/>
+      <itemData name="VariableOrObject" defStyleNum="dsNormal" color= "#7d732e" /> 
+    </itemDatas>
+  </highlighting>
+
+  <general>
+    <keywords casesensitive="1" />
+     <comments>
+      <comment name="multiLine" start='&quot;' end='&quot;' />
+    </comments>
+  </general>
+  
+</language>
